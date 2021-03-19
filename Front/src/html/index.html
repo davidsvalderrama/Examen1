@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen 1</title>
 </head>
+
 <body>
+    <h1>Examen 1 Cloud ITESO 2021</h1>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <form method="post" action="/sending">
+                <form method="post" action="https://examen1cloudaaaa.mybluemix.net/sending" target="finalText">
                     <div class="form-group">
                         <label for="name">ANALIZAR</label>
-                        <textarea name="comentarios" id="comentarios" rows="10" cols="40">Escribe aquí la información a analizar</textarea> <br> <br>
+                        <textarea name="comentarios" id="comentarios" rows="10"
+                            cols="40">Escribe aquí la información a analizar</textarea> <br> <br>
                         <div class="div-btn">
-                            <a> <button class="button-adopt" type="submit"> Analyze me!
-                            </button></a>
+                            <a> <button class="button-adopt" type="submit"> Analizar!
+                                </button></a>
+                        </div>
+                        <div>
+                            <h2>RESULTADO:  </h2>
+                            <iframe name="finalText" id="finalText"></iframe>
                         </div>
                     </div>
                 </form>
@@ -23,4 +31,5 @@
         </div>
     </div>
 </body>
+
 </html>
